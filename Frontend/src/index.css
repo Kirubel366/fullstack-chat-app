@@ -1,0 +1,7 @@
+/* src/index.css or your main CSS file */
+
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all; /* This correctly tells DaisyUI to include all themes */
+}
